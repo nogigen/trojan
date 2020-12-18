@@ -1,0 +1,100 @@
+// comment line.
+$dummyFunc(addition(set1,set2) , 9);
+$dummyFunc(var1 , var2);
+$dummyFunc(1 , 2);
+$dummyFunc();
+SET float a = {var1, var2, var3, var4};
+SET float a = {1,2,4,5} + {1.2 , 2.2 , 3.3 , 4.4};
+SET float a = {1.1, 2.2, 4.4, 5.5} + {1.2 , 2.2 , 3.3 , 4.4};
+SET int a = {1,2,4};
+var = 2 > 3;
+int a = $dummy() + $dummy();
+SET int a = {1,2,3,4,5}.add(6);
+SET int a = {1,2,3,4,5}.pop();
+SET int a = readFromFile("abc.txt");
+SET int a = readFromFile(path);
+{1,2,3,4,5}.writeToFile("abc.txt");
+{1,2,3,4,5}.writeToFile(path);
+var.writeToFile(path);
+bool c = var.contain(0);
+bool c = var.contain({1,2,3,4,5});
+bool c = var.contain(var1);
+SET int a = {var1 , var2, var3};
+SET int a = {var1 , var2, var3} + {var1, var2, var3};
+SET int b = {1 , 3 , 6 , 9};
+int a = 2 + 2 + 5;
+float c = 2.2 * 3.3 - 5.0;
+float d = 2.2 + 3;
+float e = 3 + 2.2;
+SET float p = {1.2 , 3.5 , 22.2 , 0.9};
+str m = "a";
+str x = "a" + "b";
+int a = $dummy() + 5 + 5;
+float b = 5.2 + 2 + $dummy();
+float b = 5.2 + 2.2 + $dummy();
+str c = $dummy() + "a";
+int d = addition(list1 , list2) + 5;
+SET int a = $dummy() + {1,2,3,4};
+SET int a = {1,2,3,4} + $dummy();
+SET float a = {1.1,2.2,3.3,4.4} + $dummy();
+SET float a = $dummy() + {1.1,2.2,3.3,4.4};
+SET str a = {"a", "b" ,"c"} + $dummy();
+SET str a = $dummy() + {"a", "b", "c"};
+if( 2 < 5 && 3 > 6) {
+	a = a * 2;
+}
+if( (2 < 5 || 2 > 5) && (var1 < var2) ) {
+	a = a + 2;
+}
+else {
+	a = a / 2;
+}
+
+if( var1 > var2 ) {
+	if(var2 > var3) {
+		a = c + d;
+	}
+	else {
+		a = c - d;
+	}
+}
+else {
+	a = 1 * 1;
+}
+
+if( $jj() ) {
+	a = 3;
+	if(var1) {
+		a = a * 3;
+	}
+}
+
+for(int i = 0 ; i < 10; i = i + 1) {
+	if($isValid()) {
+		value = value + $getValue();
+	}
+}
+while($isItEmpty(set1)) {
+	counter = counter - 1;
+}
+
+void func $dummyFunc(str var1) {
+	a = a + "xd";
+	return; // optional.
+}
+str var = "yo";
+$dummyFunc(var);
+
+SET int func $dummy(int var1) {
+	a = {1,2,3,4,5};
+	a.add(var1);
+	return a;
+}
+
+set1.add(5);
+set1.add(var1);
+set1.contain(6);
+set1.contain(var1);
+set1.pop();
+set1.pop(3);
+set1.pop(var1);
